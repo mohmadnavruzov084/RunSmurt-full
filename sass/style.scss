@@ -1,0 +1,38 @@
+@import 'base/variables';
+@import 'base/animation';
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+a,
+button {
+  font-family: "PT Sans", sans-serif;
+
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  position: relative;
+
+
+}
+
+.menu {
+  display: none;
+}
+
+@import 'bloks/media';
+@import 'bloks/promo';
+@import 'bloks/header';
+@import 'bloks/buttons';
+@import 'bloks/advantages';
+@import 'bloks/consultation';
+@import 'bloks/title';
+@import 'bloks/form.scss';
+@import 'bloks/carousel.scss';
+@import 'bloks/catolog';
+@import 'bloks/reviews';
+@import 'bloks/footer';
+@import 'bloks/modal';
+@import 'bloks/pageup';
